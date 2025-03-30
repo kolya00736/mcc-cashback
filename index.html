@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>каким банком платить?</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+	<input id="search" type="search" placeholder="введите название магазина или MCC-код (4 цифры)">
+	<div class="table-container">
+		<table>
+			<thead>
+				<tr>
+					<th>Наименование магазина</th>
+					<th>MCC</th>
+				</tr>
+			</thead>
+			<tbody id="table-body">
+			</tbody>
+		</table>
+	</div>
+	<script src="banks.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>

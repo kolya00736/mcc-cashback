@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Gidole&display=swap');
+
+* {
+    font-family: "Gidole", sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+.table-container {
+    height: 100%;
+    overflow: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td:nth-child(1),
+td:nth-child(2) {
+    white-space: nowrap;
+}
+
+input {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="button"]:hover {
+    cursor: pointer;
+    background-color: #e5e5e5;
+}

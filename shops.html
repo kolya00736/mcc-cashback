@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>конфигурация магазинов</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <h3>Импортировать магазины из файла:</h3>
+    <input type="file" id="uploadFile" accept=".json">
+
+    <h3>Экспортировать магазины в файл:</h3>
+    <input type="button" id="exportButton" value="Экспортировать">
+
+    <h3>Добавить магазин:</h3>
+    <input type="text" id="shopName" placeholder="введите название магазина">
+    <input type="text" id="shopMcc" placeholder="введите MCC-код">
+    <input type="button" id="addShop" value="Добавить">
+
+    <h2 class="centred-text">Текущий список магазинов:</h2>
+    <div class="table-container">
+        <table id="shopsTable">
+            <thead>
+                <tr>
+                    <th>Наименование магазина</th>
+                    <th>MCC</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="shops.js"></script>
+</body>
+</html>
